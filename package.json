@@ -1,10 +1,12 @@
 {
   "name": "declare-objects",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A CLI tool to declare Durable Objects in your Wrangler config using TypeScript",
-  "main": "dist/index.js",
+  "main": "./bin/index.js",
   "type": "module",
-  "bin": "./dist/index.ts",
+  "bin": {
+    "declare-objects": "./bin/index.js"
+  },
   "scripts": {
     "build": "tsc"
   },

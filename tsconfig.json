@@ -2,7 +2,7 @@
   "compilerOptions": {
      "target": "esnext",
      "module": "nodenext",
-     "outDir": "./dist",
+     "outDir": "./bin",
      "allowImportingTsExtensions": true,
      "rewriteRelativeImportExtensions": true,
      "verbatimModuleSyntax": true,
