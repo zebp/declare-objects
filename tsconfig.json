@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+     "target": "esnext",
+     "module": "nodenext",
+     "outDir": "./dist",
+     "allowImportingTsExtensions": true,
+     "rewriteRelativeImportExtensions": true,
+     "verbatimModuleSyntax": true,
+     "erasableSyntaxOnly": true, // TS 5.8+,
+     "skipLibCheck": true,
+     "strict": true,
+     "noImplicitAny": true,
+     "noImplicitOverride": true,
+     "noPropertyAccessFromIndexSignature": true,
+     "noUncheckedIndexedAccess": true,
+  }
+}
